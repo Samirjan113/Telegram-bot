@@ -3,7 +3,7 @@ pip install python-telegram-bot
 from telegram import Update
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters, CallbackContext
 
-TOKEN = "7937825193:AAEQugjec6S67qdRpFIw0srhEDYIBdSPMmM"
+TOKEN = "7795389394:AAFg_jNmgzqlmhTtP0R2O6eoH7Bx0VpjfYs"
 
 def start(update: Update, context: CallbackContext):
     update.message.reply_text("Olá! Sou um bot de reações. Envie algo e eu respondo!")
