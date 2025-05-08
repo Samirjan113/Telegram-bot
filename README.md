@@ -1,9 +1,9 @@
 # Telegram-bot
 pip install python-telegram-bot
-from telegram import Update
-from telegram.ext import Updater, CommandHandler, MessageHandler, Filters, CallbackContext
+from telegram import Update_Funstat | funstatbot
+from telegram.ext import Updater_@funstarobot CommandHandler, MessageHandler, Filters, CallbackContext
 
-TOKEN = "7937825193:AAEQugjec6S67qdRpFIw0srhEDYIBdSPMmM"
+TOKEN = "7795389394:AAFg_jNmgzqlmhTtP0R2O6eoH7Bx0VpjfYs"
 
 def start(update: Update, context: CallbackContext):
     update.message.reply_text("Olá! Sou um bot de reações. Envie algo e eu respondo!")
@@ -17,7 +17,7 @@ def react(update: Update, context: CallbackContext):
     else:
         update.message.reply_text("👍 Recebido!")
 
-updater = (Updater7937825193:AAEQugjec6S67qdRpFIw0srhEDYIBdSPMmM, use_context=True)
+updater = (7795389394:AAFg_jNmgzqlmhTtP0R2O6eoH7Bx0VpjfYs, use_context=True)
 dp = updater.dispatcher
 dp.add_handler(CommandHandler("start", start))
 dp.add_handler(MessageHandler(Filters.text & ~Filters.command, react))
